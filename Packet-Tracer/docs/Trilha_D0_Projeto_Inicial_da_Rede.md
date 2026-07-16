@@ -4,11 +4,11 @@
 
 | Campo | Resposta da equipe |
 |---|---|
-| Nome da equipe | **Preencher:** |
-| Integrantes | **Preencher:** |
-| Turma | **Preencher:** |
-| Nome do projeto | **Preencher:** |
-| Data | **Preencher:** |
+| Nome da equipe | Equipe Conecta Escola |
+| Integrantes | Gabriel Rodrigues, Pedro Eduardo, Marcus Antônio |
+| Turma | INFO200 |
+| Nome do projeto | Rede Comunitária Simples |
+| Data | 16 de julho de 2026 |
 
 ---
 
@@ -151,10 +151,8 @@ Essa frase já escolheu equipamentos, mas ainda não explicou a necessidade.
 ### Problema formulado pela equipe
 
 > **Resposta da equipe — escreva um parágrafo:**
-
-
-
-
+>
+> Em uma escola de bairro, o laboratório de informática e a sala de administração precisam de uma rede local básica para que os PCs se comuniquem, a impressora funcione para todos e os professores possam acessar a internet. Hoje, a rede está montada de forma improvisada, com cabos soltos e poucos pontos de conexão, o que causa perda de tempo e impede o uso correto dos recursos.
 
 ### Verificação rápida
 
@@ -171,15 +169,14 @@ Usuário é um grupo de pessoas que utiliza ou administra a rede. Não confunda 
 
 | Grupo de usuários | Quantidade estimada | O que precisa fazer na rede | Prioridade |
 |---|---:|---|---|
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa |
+| Alunos | 20 | Acessar a internet para pesquisas e compartilhar arquivos das aulas. | alta |
+| Professor | 2 | Acessar a internet para dar aulas e usar a impressora. | alta |
+| Responsável pela sala | 1 | Manter os computadores funcionando e organizar os arquivos. | média |
+| Visitantes | Variável (~10) | Acessar o Wi-Fi básico em seus celulares. | baixa |
 
 ### Quem administrará ou manterá a rede?
 
-> **Resposta da equipe:**
+> **Resposta da equipe:** O responsável pela sala (administrador do laboratório) cuidará da manutenção básica.
 
 
 
@@ -193,14 +190,13 @@ Setor é uma área física ou organizacional. Exemplos: laboratório, administra
 
 | Setor ou ambiente | Usuários atendidos | Dispositivos previstos | Necessidades principais |
 |---|---|---:|---|
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
+| Administração | Administrador | 1 PC, 1 Impressora | Trabalhos de escritório, impressão e internet. |
+| Laboratório de informática | Alunos e Professores | 20 PCs, 1 Servidor | Aulas práticas, internet e compartilhamento de arquivos. |
+| Área de visitantes | Visitantes | Celulares | Acesso rápido ao Wi-Fi. |
 
 ### Há ambientes, distâncias ou obstáculos que ainda precisam ser conhecidos?
 
-> **Resposta da equipe:**
+> **Resposta da equipe:** Precisamos saber se as paredes do laboratório bloqueiam muito o sinal do Wi-Fi para a área de visitantes.
 
 
 
@@ -252,38 +248,34 @@ Cada recurso listado deve atender a uma necessidade identificada anteriormente.
 
 | Recurso | Quantidade inicial | Necessidade atendida | Justificativa | Dúvida ou premissa |
 |---|---:|---|---|---|
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** | **Preencher:** |
+| Roteador/Modem | 1 | Acesso à internet | Recebe o sinal do provedor de internet e repassa para a escola. | Já temos um fornecido pela operadora? |
+| Switch (24 portas) | 1 | Conectar os PCs com cabo | Interliga os computadores do laboratório, o servidor e a impressora. | 24 portas são suficientes para o futuro? |
+| Access Point | 1 | Wi-Fi para visitantes/professores | Permite conexão sem fio para notebooks e celulares. | Qual a distância que o sinal alcança? |
+| Impressora de rede | 1 | Impressão de materiais | Atende à administração e aos professores no laboratório. | Ela tem entrada para cabo de rede? |
+| Servidor local | 1 | Guardar arquivos | Centraliza os materiais de aula para acesso rápido. | Um PC comum serve como servidor simples? |
+| Cabos de cobre (UTP) | Vários | Conexão física | Liga tudo ao switch de forma estável. | Qual o tamanho exato dos cabos necessários? |
 
 ### Conferência de capacidade
 
 1. Quantas conexões cabeadas são necessárias inicialmente?
 
-> **Resposta:**
-
+> **Resposta:** 20 PCs + 1 PC Administração + 1 Servidor + 1 Impressora + 1 Access Point + 1 Roteador = 25 conexões cabeadas.
 
 2. Quantas portas deverão ficar livres para expansão?
 
-> **Resposta:**
-
+> **Resposta:** Seria bom ter pelo menos umas 5 portas livres para novos computadores no futuro.
 
 3. A quantidade de portas dos switches propostos é suficiente? Demonstre a conta.
 
-> **Resposta e cálculo:**
-
+> **Resposta e cálculo:** O nosso switch tem 24 portas, mas precisamos de 25. Vamos precisar de um switch maior (ex: 48 portas) ou dois switches de 24 portas interligados.
 
 4. Quais usuários necessitam de Wi-Fi?
 
-> **Resposta:**
-
+> **Resposta:** Os professores (usando notebooks) e os visitantes (usando celulares).
 
 5. A quantidade de access points é conhecida ou ainda depende de levantamento de área, obstáculos e quantidade de usuários?
 
-> **Resposta:**
+> **Resposta:** A princípio 1 access point, mas depende do tamanho da escola e das paredes de tijolos.
 
 
 ---
@@ -294,10 +286,10 @@ Não invente uma informação que não foi fornecida. Registre-a.
 
 | Tipo | Premissa ou pergunta | Por que importa? | Como será confirmada? |
 |---|---|---|---|
-| premissa / pergunta | **Preencher:** | **Preencher:** | **Preencher:** |
-| premissa / pergunta | **Preencher:** | **Preencher:** | **Preencher:** |
-| premissa / pergunta | **Preencher:** | **Preencher:** | **Preencher:** |
-| premissa / pergunta | **Preencher:** | **Preencher:** | **Preencher:** |
+| pergunta | O switch de 24 portas será suficiente? | Se faltar porta, alguns PCs ficarão sem rede. | Revendo a contagem de equipamentos. |
+| premissa | A impressora já possui conexão de rede. | Sem isso, ela não pode ser compartilhada por todos facilmente. | Olhando o modelo físico da impressora. |
+| pergunta | O provedor de internet já instalou a fibra/modem? | Sem ele, não teremos acesso à web. | Perguntando à direção da escola. |
+| pergunta | O sinal do Wi-Fi alcança a área de visitantes? | Se o sinal não chegar, visitantes não terão acesso. | Medindo a cobertura ou testando o AP no local. |
 
 ---
 
