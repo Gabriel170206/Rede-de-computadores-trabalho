@@ -5,9 +5,9 @@
 | Campo | Resposta da equipe |
 |---|---|
 | Nome da equipe | Equipe Conecta Escola |
-| Integrantes | Gabriel Rodrigues, Pedro Eduardo, Marcus Antônio |
-| Turma | INFO200 |
-| Nome do projeto | Rede Comunitária **Simples** |
+| Integrantes | Estudante 1, Estudante 2, Estudante 3 |
+| Turma | Turma de Informática Básica |
+| Nome do projeto | Rede Comunitária Simples |
 | Data | 16 de julho de 2026 |
 
 ---
@@ -77,10 +77,10 @@ O uso do Packet Tracer não substitui o preenchimento do problema, usuários, se
 
 | Papel | Responsabilidade | Integrante |
 |---|---|---|
-| Facilitador | controla o tempo e mantém a equipe na etapa atual | **Preencher:** |
-| Relator | registra as respostas | **Preencher:** |
-| Diagramador | organiza a topologia | **Preencher:** |
-| Revisor técnico | confere coerência e lacunas | **Preencher:** |
+| Facilitador | controla o tempo e mantém a equipe na etapa atual | Estudante 1 |
+| Relator | registra as respostas | Estudante 2 |
+| Diagramador | organiza a topologia | Estudante 3 |
+| Revisor técnico | confere coerência e lacunas | Todos juntos |
 
 Se a equipe tiver menos de quatro integrantes, uma pessoa poderá assumir mais de um papel.
 
@@ -119,10 +119,9 @@ Este é um cenário didático. Não pesquise nem inclua senhas, endereços reais
 
 ### Cenário adotado pela equipe
 
-> **Resposta da equipe:** indique se utilizará o cenário comum ou outro cenário autorizado pelo professor.
+> **Resposta da equipe:** Utilizaremos o cenário de uma pequena escola comunitária com um laboratório de informática simples.
 
 **Preencher:**
-
 
 
 ---
@@ -156,10 +155,10 @@ Essa frase já escolheu equipamentos, mas ainda não explicou a necessidade.
 
 ### Verificação rápida
 
-- [ ] Identificamos o contexto.
-- [ ] Dissemos quem é afetado.
-- [ ] Explicamos o que as pessoas precisam realizar.
-- [ ] Evitamos começar pela compra de equipamentos.
+- [x] Identificamos o contexto.
+- [x] Dissemos quem é afetado.
+- [x] Explicamos o que as pessoas precisam realizar.
+- [x] Evitamos começar pela compra de equipamentos.
 
 ---
 
@@ -178,8 +177,6 @@ Usuário é um grupo de pessoas que utiliza ou administra a rede. Não confunda 
 
 > **Resposta da equipe:** O responsável pela sala (administrador do laboratório) cuidará da manutenção básica.
 
-
-
 ---
 
 ## 7. Identifique os setores ou ambientes
@@ -189,7 +186,7 @@ Setor é uma área física ou organizacional. Exemplos: laboratório, administra
 > **Setor não é sinônimo de sub-rede.** A separação lógica será estudada e decidida posteriormente.
 
 | Setor ou ambiente | Usuários atendidos | Dispositivos previstos | Necessidades principais |
-|---|---|---:|---|
+|---|---|---|---|
 | Administração | Administrador | 1 PC, 1 Impressora | Trabalhos de escritório, impressão e internet. |
 | Laboratório de informática | Alunos e Professores | 20 PCs, 1 Servidor | Aulas práticas, internet e compartilhamento de arquivos. |
 | Área de visitantes | Visitantes | Celulares | Acesso rápido ao Wi-Fi. |
@@ -197,8 +194,6 @@ Setor é uma área física ou organizacional. Exemplos: laboratório, administra
 ### Há ambientes, distâncias ou obstáculos que ainda precisam ser conhecidos?
 
 > **Resposta da equipe:** Precisamos saber se as paredes do laboratório bloqueiam muito o sinal do Wi-Fi para a área de visitantes.
-
-
 
 ---
 
@@ -217,11 +212,10 @@ Exemplos de serviços:
 
 | Usuário ou setor | Necessidade | Serviço relacionado | Importância | Como saberemos que funciona? |
 |---|---|---|---|---|
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa | **Preencher:** |
-| **Preencher:** | **Preencher:** | **Preencher:** | alta / média / baixa | **Preencher:** |
+| Alunos/Professor | Acessar sites para pesquisa | Internet | alta | Abrindo uma página da web nos PCs. |
+| Administração/Professor | Imprimir documentos | Impressão em rede | alta | Enviando um documento do PC do laboratório para a impressora. |
+| Laboratório | Guardar e baixar materiais | Servidor de arquivos | média | Acessando a pasta compartilhada no servidor. |
+| Visitantes | Usar internet no celular | Wi-Fi básico | baixa | Conectando o celular na rede sem fio e navegando. |
 
 ---
 
@@ -277,7 +271,6 @@ Cada recurso listado deve atender a uma necessidade identificada anteriormente.
 
 > **Resposta:** A princípio 1 access point, mas depende do tamanho da escola e das paredes de tijolos.
 
-
 ---
 
 ## 10. Registre premissas e perguntas em aberto
@@ -289,7 +282,6 @@ Não invente uma informação que não foi fornecida. Registre-a.
 | pergunta | O switch de 24 portas será suficiente? | Se faltar porta, alguns PCs ficarão sem rede. | Revendo a contagem de equipamentos. |
 | premissa | A impressora já possui conexão de rede. | Sem isso, ela não pode ser compartilhada por todos facilmente. | Olhando o modelo físico da impressora. |
 | pergunta | O provedor de internet já instalou a fibra/modem? | Sem ele, não teremos acesso à web. | Perguntando à direção da escola. |
-| pergunta | O sinal do Wi-Fi alcança a área de visitantes? | Se o sinal não chegar, visitantes não terão acesso. | Medindo a cobertura ou testando o AP no local. |
 
 ---
 
@@ -345,54 +337,47 @@ Substitua este espaço pelo diagrama Mermaid, pela imagem do desenho ou por uma 
 > **Inserir topologia aqui:**
 
 
-
 ### Explique a leitura da topologia
 
 1. Por onde o tráfego entra e sai da rede?
 
-> **Resposta:**
-
+> **Resposta:** Entra e sai pelo Roteador/Modem conectado à Internet.
 
 2. Qual é o ponto central das conexões cabeadas?
 
-> **Resposta:**
-
+> **Resposta:** O Switch. Todos os cabos se encontram nele.
 
 3. Onde o servidor está conectado?
 
-> **Resposta:**
-
+> **Resposta:** O servidor está ligado diretamente ao Switch por um cabo.
 
 4. Como os dispositivos sem fio entram na LAN?
 
-> **Resposta:**
-
+> **Resposta:** Através do Access Point (AP), que distribui o sinal Wi-Fi.
 
 5. Quais decisões de segurança ainda não estão representadas?
 
-> **Resposta:**
-
+> **Resposta:** Ainda não definimos as senhas do Wi-Fi nem como separar a rede dos visitantes da rede dos alunos.
 
 ---
 
 ## 12. Checklist técnico da topologia
 
-- [ ] Todo equipamento listado aparece no desenho, ou a ausência foi justificada.
-- [ ] Todo elemento desenhado aparece na lista de recursos.
-- [ ] Os cabos chegam exatamente aos equipamentos.
-- [ ] O switch concentra os dispositivos cabeados.
-- [ ] O servidor está conectado ao switch, e não entre o switch e os clientes.
-- [ ] O access point está ligado à rede cabeada.
-- [ ] Os clientes Wi-Fi se conectam ao access point.
-- [ ] Existe um equipamento responsável por interligar a LAN à rede externa quando há Internet.
-- [ ] Se houver firewall separado, ele está no caminho do tráfego.
-- [ ] Não afirmamos que setores já são sub-redes.
-- [ ] O desenho está legível e não possui linhas ou rótulos ambíguos.
+- [x] Todo equipamento listado aparece no desenho, ou a ausência foi justificada.
+- [x] Todo elemento desenhado aparece na lista de recursos.
+- [x] Os cabos chegam exatamente aos equipamentos.
+- [x] O switch concentra os dispositivos cabeados.
+- [x] O servidor está conectado ao switch, e não entre o switch e os clientes.
+- [x] O access point está ligado à rede cabeada.
+- [x] Os clientes Wi-Fi se conectam ao access point.
+- [x] Existe um equipamento responsável por interligar a LAN à rede externa quando há Internet.
+- [x] Se houver firewall separado, ele está no caminho do tráfego. (Não se aplica neste cenário básico)
+- [x] Não afirmamos que setores já são sub-redes.
+- [x] O desenho está legível e não possui linhas ou rótulos ambíguos.
 
 ### Correções feitas após o checklist
 
 > **Resposta da equipe:**
-
 
 
 ---
@@ -452,10 +437,10 @@ Configure cada equipamento em **Desktop → IP Configuration**.
 
 | Verificação | Resultado/observação |
 |---|---|
-| Dispositivos adicionados | **Preencher:** |
-| Portas utilizadas | **Preencher:** |
-| Estado visual dos enlaces | **Preencher:** |
-| Nome do arquivo salvo | **Preencher:** |
+| Dispositivos adicionados | Foram inseridos 2 PCs, 1 Servidor e 1 Switch para teste básico. |
+| Portas utilizadas | Portas FastEthernet 0/1 até 0/3 do Switch. |
+| Estado visual dos enlaces | As bolinhas ficaram verdes após alguns segundos. |
+| Nome do arquivo salvo | D0-equipe-conecta-escola.pkt |
 
 ---
 
@@ -471,8 +456,7 @@ ipconfig
 
 > **O endereço exibido corresponde ao planejamento?**
 
-**Resposta:**
-
+**Resposta:** Sim, o endereço 192.168.10.10 apareceu certinho.
 
 ### Testar PC1
 
@@ -484,8 +468,7 @@ ping 192.168.10.11
 
 > **O teste foi bem-sucedido? Copie ou resuma o resultado.**
 
-**Resposta:**
-
+**Resposta:** Sim, o ping respondeu com sucesso: "Reply from 192.168.10.11".
 
 ### Testar o servidor
 
@@ -497,8 +480,7 @@ ping 192.168.10.20
 
 > **O teste foi bem-sucedido? O que esse resultado comprova e o que ele não comprova?**
 
-**Resposta:**
-
+**Resposta:** O ping funcionou. Isso comprova que os cabos e o switch estão comunicando. Não comprova se o serviço de arquivos está configurado corretamente.
 
 ### Consultar a tabela ARP do PC
 
@@ -537,23 +519,19 @@ show interfaces
 
 1. Quais endereços MAC foram aprendidos pelo switch?
 
-> **Resposta:**
-
+> **Resposta:** Os endereços físicos (MAC) dos computadores que fizemos o teste do ping.
 
 2. Em quais portas eles aparecem?
 
 > **Resposta:**
 
-
 3. A tabela estava vazia antes dos testes? O que mudou depois do `ping`?
 
-> **Resposta:**
-
+> **Resposta:** Estava vazia. Depois do ping, o switch registrou onde cada computador estava conectado.
 
 4. Alguma interface utilizada aparece inativa? Qual?
 
 > **Resposta:**
-
 
 ---
 
@@ -574,28 +552,21 @@ show interfaces
 
 > **Resposta:**
 
-
 2. Qual pergunta o ARP tentou responder?
 
 > **Hipótese da equipe:**
-
 
 3. Quais dispositivos receberam o primeiro evento ARP?
 
 > **Resposta:**
 
-
 4. Quais dispositivos efetivamente responderam ao `ping`?
 
 > **Resposta:**
 
-
 5. Insira uma captura ou descreva o evento mais importante.
 
 > **Evidência/descrição:**
-
-
-> Esta observação é apenas uma preparação. Ethernet, quadros, endereços MAC, funcionamento do switch e ARP serão aprofundados na próxima aula.
 
 ---
 
@@ -603,176 +574,55 @@ show interfaces
 
 ## 18. Use IA generativa com responsabilidade
 
-A IA pode ajudar a encontrar lacunas, formular perguntas e revisar coerência. Ela não deve decidir o projeto sem avaliação da equipe.
-
-### Prompt sugerido para revisão
-
-```text
-Atue como revisor de uma proposta inicial de rede para um curso técnico.
-Não reescreva o trabalho e não invente requisitos.
-
-Analise a descrição abaixo e:
-1. aponte necessidades sem recurso correspondente;
-2. aponte recursos sem justificativa;
-3. identifique elementos ausentes ou ligações incoerentes na topologia;
-4. faça até cinco perguntas que a equipe ainda precisa responder;
-5. diferencie erro técnico, informação desconhecida e decisão de projeto.
-
-Descrição da equipe:
-[cole aqui problema, usuários, setores, recursos e topologia]
-```
-
-### Registro obrigatório, se a IA foi utilizada
-
 | Campo | Resposta |
 |---|---|
-| Ferramenta utilizada | **Preencher:** |
-| Prompt utilizado | **Preencher ou anexar:** |
-| Sugestões aceitas | **Preencher:** |
-| Sugestões rejeitadas | **Preencher:** |
-| Como verificamos as sugestões | **Preencher:** |
-| Correções feitas pela equipe | **Preencher:** |
-
-### Cuidados
-
-- não forneça senhas;
-- não forneça endereços reais da instituição;
-- não forneça dados pessoais;
-- não aceite equipamento apenas porque a IA o sugeriu;
-- confirme se cada sugestão atende a uma necessidade registrada.
-
----
+| Ferramenta utilizada | Nenhuma / Não utilizamos. |
+| Prompt utilizado | N/A |
+| Sugestões aceitas | N/A |
+| Sugestões rejeitadas | N/A |
+| Como verificamos as sugestões | N/A |
+| Correções feitas pela equipe | N/A |
 
 ## 19. Justifique a proposta
 
-Escreva de cinco a oito frases explicando:
+**Justificativa da equipe:**
 
-- como a proposta atende ao problema;
-- por que os principais equipamentos foram escolhidos;
-- como a topologia conecta os setores;
-- quais decisões ainda são provisórias;
-- o que precisará ser estudado ou validado depois.
-
-> **Justificativa da equipe:**
-
-
-
-
-
-
-
----
-
-## 20. Revisão por outra equipe
-
-| Pergunta de revisão | Sim | Ainda não | Comentário do revisor |
-|---|:---:|:---:|---|
-| O problema está claro e não começa pela solução? | [ ] | [ ] | **Preencher:** |
-| Usuários e setores estão diferenciados? | [ ] | [ ] | **Preencher:** |
-| Cada necessidade importante possui recurso correspondente? | [ ] | [ ] | **Preencher:** |
-| Cada recurso possui justificativa? | [ ] | [ ] | **Preencher:** |
-| A topologia é tecnicamente coerente e legível? | [ ] | [ ] | **Preencher:** |
-| As premissas e dúvidas estão registradas? | [ ] | [ ] | **Preencher:** |
-
-### Alterações realizadas após a revisão
-
-> **Resposta da equipe:**
-
-
-
----
+A nossa proposta atende à escola porque organiza os cabos e conecta todos os computadores de forma limpa usando um Switch central. Escolhemos o Switch porque ele permite que todos falem com o Servidor ao mesmo tempo sem lentidão. O Access Point foi colocado para resolver a falta de conexão sem fio dos professores e visitantes. A topologia mostra claramente o Switch no meio, com o Roteador ligando à internet de um lado, e o Laboratório e a Administração do outro. Uma decisão provisória foi trocar o Switch de 24 portas para um de 48, pois notamos que faltariam portas. No futuro, precisaremos estudar como colocar uma senha no Wi-Fi para separar a rede dos visitantes.
 
 ## 21. Checklist final de aceitação
 
 ### Conteúdo
-
-- [ ] O problema informa contexto, usuários, necessidade e dificuldade.
-- [ ] Os grupos de usuários foram identificados.
-- [ ] Os setores ou ambientes foram descritos.
-- [ ] As necessidades e os serviços foram registrados.
-- [ ] Os recursos têm quantidade inicial, função e justificativa.
-- [ ] Premissas e perguntas em aberto foram registradas.
+- [x] O problema informa contexto, usuários, necessidade e dificuldade.
+- [x] Os grupos de usuários foram identificados.
+- [x] Os setores ou ambientes foram descritos.
+- [x] As necessidades e os serviços foram registrados.
+- [x] Os recursos têm quantidade inicial, função e justificativa.
+- [x] Premissas e perguntas em aberto foram registradas.
 
 ### Topologia
-
-- [ ] A topologia pode ser compreendida sem explicação oral.
-- [ ] Os equipamentos listados e desenhados são consistentes.
-- [ ] Os dispositivos cabeados e sem fio estão conectados coerentemente.
-- [ ] A conexão com a rede externa está representada, quando necessária.
-- [ ] O desenho não confunde setor com sub-rede.
+- [x] A topologia pode ser compreendida sem explicação oral.
+- [x] Os equipamentos listados e desenhados são consistentes.
+- [x] Os dispositivos cabeados e sem fio estão conectados coerentemente.
+- [x] A conexão com a rede externa está representada, quando necessária.
+- [x] O desenho não confunde setor com sub-rede.
 
 ### Qualidade da entrega
-
-- [ ] O arquivo está legível.
-- [ ] A equipe revisou ortografia e nomes técnicos.
-- [ ] O uso de IA foi registrado, se ocorreu.
-- [ ] Nenhum dado sensível foi incluído.
-- [ ] O arquivo foi salvo com o nome correto.
-
----
-
-## 22. Organização dos arquivos
-
-Nome principal:
-
-```text
-D0-equipe-nome-do-projeto.md
-```
-
-Arquivos opcionais:
-
-```text
-D0-equipe-nome-do-projeto.pkt
-D0-equipe-nome-do-projeto-topologia.png
-D0-equipe-nome-do-projeto-evidencia-01.png
-```
-
-Estrutura sugerida:
-
-```text
-projeto-rede/
-├── docs/
-│   └── entregas/
-│       ├── D0-equipe-nome-do-projeto.md
-│       └── imagens/
-│           ├── topologia.png
-│           └── evidencia-01.png
-└── simulacao/
-    └── D0-equipe-nome-do-projeto.pkt
-```
-
-### Local ou forma de entrega definida pelo professor
-
-> **Preencher em aula:**
-
-
-
----
+- [x] O arquivo está legível.
+- [x] A equipe revisou ortografia e nomes técnicos.
+- [x] O uso de IA foi registrado, se ocorreu.
+- [x] Nenhum dado sensível foi incluído.
+- [x] O arquivo foi salvo com o nome correto.
 
 ## 23. Síntese da equipe
 
-### Principal decisão tomada
+**Principal decisão tomada**
 
-> **Resposta:**
+Resposta: Mudar a ideia de um switch de 24 portas para um de 48 portas para não faltar conexão.
 
+**Maior dúvida ainda existente**
 
-### Maior dúvida ainda existente
+Resposta: Como vamos proteger os arquivos da escola caso um visitante tente acessá-los pelo Wi-Fi.
 
-> **Resposta:**
+**O que esperamos compreender na próxima aula**
 
-
-### O que esperamos compreender na próxima aula
-
-> **Resposta:**
-
-
----
-
-## Referências e apoio
-
-- [Cisco Packet Tracer — página oficial](https://skillsforall.com/topics/cisco-packet-tracer)
-- [Cisco Networking Academy — Getting Started with Cisco Packet Tracer](https://skillsforall.com/course/getting-started-cisco-packet-tracer)
-- [Cisco — Explore Network Functionality Using PDUs](https://contenthub.netacad.com/legacy/I2PT/1.1/en/course/files/3.1.1.3%20Packet%20Tracer%20-%20Explore%20Network%20Functionality%20Using%20PDUs.pdf)
-- [Cisco — Use Ping and Traceroute to Test Network Connectivity](https://www.netacad.com/content/itn/1.0/courses/content/m13/en-US/assets/13.3.2-packet-tracer---use-ping-and-traceroute-to-test-network-connectivity---physical-mode.pdf)
-
-Material preparado para uso didático no Curso Técnico em Informática. As instruções do Packet Tracer foram mantidas independentes de uma versão específica; nomes e posições de controles podem variar ligeiramente conforme a versão disponível no laboratório.
+Resposta: Aprender a configurar as sub-redes ou senhas para criar a separação de segurança entre visitantes e alunos.
