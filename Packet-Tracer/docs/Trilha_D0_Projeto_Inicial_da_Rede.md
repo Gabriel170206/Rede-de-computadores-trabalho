@@ -5,7 +5,7 @@
 | Campo | Resposta da equipe |
 |---|---|
 | Nome da equipe | Equipe Conecta Escola |
-| Integrantes | Estudante 1, Estudante 2, Estudante 3 |
+| Integrantes | Gabriel Rodrigues, Pedro Eduardo, Marcus Antônio |
 | Turma | Turma de Informática Básica |
 | Nome do projeto | Rede Comunitária Simples |
 | Data | 16 de julho de 2026 |
